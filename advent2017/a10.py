@@ -1,5 +1,3 @@
-import binascii
-
 def p1(lengths, n):
     lengths = lengths.split(",")
     nums = list(range(n))
