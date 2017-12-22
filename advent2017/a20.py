@@ -22,7 +22,7 @@ def p2(file):
         v = [int(i) for i in line[1][3:-1].split(",")]
         a = [int(i) for i in line[2][3:-1].split(",")]
         particles.append(Particle(lineNum, p, v, a))
-    for i in range(101):
+    for i in range(100):
         [i.move() for i in particles]
         toRemove = []
         for i in particles:
