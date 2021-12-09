@@ -21,8 +21,7 @@ def findWinner(file):
                         if all(b[i][x] == "X" for x in range(len(b[i]))) or all(b[x][j] == "X" for x in range(len(b))):
                             return sum(sum(num for num in row if num != "X") for row in b) * n
 
-with open("i04.txt", "r") as file:
+
+with open("in.txt", "r") as file:
     n = findWinner(file)
     print(n)
-
-    

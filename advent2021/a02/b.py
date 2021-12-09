@@ -1,4 +1,4 @@
-with open("i02.txt", "r") as file:
+with open("in.txt", "r") as file:
     pos = 0
     depth = 0
     aim = 0

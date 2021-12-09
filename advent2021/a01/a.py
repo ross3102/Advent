@@ -1,4 +1,4 @@
-with open("i01.py", "r") as file:
+with open("in.py", "r") as file:
     total = 0
 
     prev = None
@@ -8,4 +8,3 @@ with open("i01.py", "r") as file:
             total += 1
         prev = i
     print(total)
-
