@@ -1,4 +1,4 @@
-with open("i05.txt", "r") as file:
+with open("in.txt", "r") as file:
     pointCounts = {}
     total = 0
     for line in file:

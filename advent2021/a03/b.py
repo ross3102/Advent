@@ -27,7 +27,8 @@ def getRating(lines, isOxy):
         if len(valid) == 1:
             return int(lines[valid[0]], 2)
 
-with open("i03.txt", "r") as file:
+
+with open("in.txt", "r") as file:
     lines = [line.strip() for line in file]
 
     ox = getRating(lines, True)

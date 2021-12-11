@@ -1,4 +1,4 @@
-with open("i07.txt", "r") as file:
+with open("in.txt", "r") as file:
     line = [int(i) for i in file.readline().split(",")]
     mintotal = -1
     for pos in range(min(line), max(line)):

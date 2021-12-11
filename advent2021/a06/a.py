@@ -1,4 +1,4 @@
-with open("i06.txt", "r") as file:
+with open("in.txt", "r") as file:
     counts = [0, 0, 0, 0, 0, 0, 0, 0, 0]
     for i in file.readline().split(","):
         i = int(i)

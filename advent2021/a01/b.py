@@ -1,4 +1,4 @@
-with open("i01.txt", "r") as file:
+with open("in.txt", "r") as file:
     total = 0
 
     prevs = []
@@ -15,4 +15,3 @@ with open("i01.txt", "r") as file:
         prevs.append(int(line))
         line = file.readline()
     print(total)
-
