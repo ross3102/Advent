@@ -1,4 +1,4 @@
-with open("i08.txt", "r") as file:
+with open("in.txt", "r") as file:
     total = 0
     for line in file:
         inp, out = [side.split() for side in line.strip().split(" | ")]
