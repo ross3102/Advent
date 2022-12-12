@@ -36,11 +36,11 @@ def solve():
         for loc in locs:
             lcol, lrow = loc
             for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:
-                tcol, trow = lcol + dx, lrow + dy
-                if (tcol, trow) not in seen and canMove(grid, loc, (tcol, trow)):
-                    newlocs.append((tcol, trow))
-                    seen.add((tcol, trow))
-                    if (tcol, trow) == end:
+                to = (lcol + dx, lrow + dy)
+                if to not in seen and canMove(grid, loc, to):
+                    newlocs.append(to)
+                    seen.add(to)
+                    if to == end:
                         return steps + 1
         locs = newlocs
         steps += 1
