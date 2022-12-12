@@ -25,7 +25,6 @@ def solve():
     ops = []
     x = 1
     cycle = 1
-    line = file.readline()
     for line in file:
         line = line.strip().split()
         cmd = line[0]
