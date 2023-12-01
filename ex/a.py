@@ -1,4 +1,5 @@
-file = open("i", "r")
+from os import path
+file = open(path.dirname(__file__) + "/i", "r")
 
 def solve():
     ans = 0
